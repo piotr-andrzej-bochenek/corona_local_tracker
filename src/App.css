@@ -1,0 +1,7 @@
+.inactive_link {
+  background-color: green;
+}
+
+.active_link {
+  background-color: red;
+};

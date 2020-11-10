@@ -1,9 +1,8 @@
-import * as react from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from "react-router-dom";
 import './App.css';
 
@@ -11,22 +10,22 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav>
+        <nav className='inactive_link'>
           <ul>
             <li>
-              <Link to='/'>
+              <NavLink exact to='/' activeClassName='active_link'>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to='/about'>
+              <NavLink exact to='/about' activeClassName='active_link'>
                 About us
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to='/maps'>
+              <NavLink exact to='/maps' activeClassName='active_link'>
                 Local maps
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
