@@ -10,19 +10,19 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav className='inactive_link'>
-          <ul>
-            <li>
+        <nav>
+          <ul className='nav_bar'>
+            <li className='nav_links inactive_link'>
               <NavLink exact to='/' activeClassName='active_link'>
                 Home
               </NavLink>
             </li>
-            <li>
+            <li className='nav_links inactive_link'>
               <NavLink exact to='/about' activeClassName='active_link'>
                 About us
               </NavLink>
             </li>
-            <li>
+            <li className='nav_links inactive_link'>
               <NavLink exact to='/maps' activeClassName='active_link'>
                 Local maps
               </NavLink>
