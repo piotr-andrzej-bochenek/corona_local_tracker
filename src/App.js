@@ -1,3 +1,5 @@
+import * as React from 'react';
+import { Container } from 'semantic-ui-react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,39 +11,41 @@ import './App.css';
 export default function App() {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul className='nav_bar'>
-            <li className='nav_links inactive_link'>
-              <NavLink exact to='/' activeClassName='active_link'>
-                Home
-              </NavLink>
-            </li>
-            <li className='nav_links inactive_link'>
-              <NavLink exact to='/about' activeClassName='active_link'>
-                About us
-              </NavLink>
-            </li>
-            <li className='nav_links inactive_link'>
-              <NavLink exact to='/maps' activeClassName='active_link'>
-                Local maps
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
+      <Container>
+        <div>
+          <nav>
+            <ul className='nav_bar'>
+              <li className='nav_links inactive_link'>
+                <NavLink exact to='/' activeClassName='active_link'>
+                  Home
+                </NavLink>
+              </li>
+              <li className='nav_links inactive_link'>
+                <NavLink exact to='/about' activeClassName='active_link'>
+                  About us
+                </NavLink>
+              </li>
+              <li className='nav_links inactive_link'>
+                <NavLink exact to='/maps' activeClassName='active_link'>
+                  Local maps
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
 
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/maps">
-            <Maps />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/maps">
+              <Maps />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Container>
     </Router>
   );
 };
