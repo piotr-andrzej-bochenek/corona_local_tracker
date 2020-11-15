@@ -25,3 +25,22 @@
   background-color: red;
   color: yellow;
 };
+
+.embed-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container iframe {
+  position: relative;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+
+.small {
+  position: absolute;
+  z-index: 40;
+  bottom: 0;
+  margin-bottom: -15px;
+}
