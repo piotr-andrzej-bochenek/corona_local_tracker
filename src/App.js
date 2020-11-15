@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { Container } from 'semantic-ui-react';
+import { Container, Image } from 'semantic-ui-react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   NavLink
 } from "react-router-dom";
+import img1 from "../src/assets/icons/corona192.png";
 import './App.css';
 
 export default function App() {
@@ -15,6 +16,9 @@ export default function App() {
         <div>
           <nav>
             <ul className='nav_bar'>
+              <li className='img_1'>
+                <Image src={img1} style={{width: 'auto', height: '58px'}}/>
+              </li>
               <li className='nav_links inactive_link'>
                 <NavLink exact to='/' activeClassName='active_link'>
                   Home

@@ -5,15 +5,23 @@
   overflow: hidden;
   background-color: blue;
 }
+
 .nav_links {
   float: left;
-  padding: 4px;
+  padding: 20px 10px;
+}
+
+.img_1 {
+  float: left;
+  height: 58px;
+  background-color: lightgreen;
 }
 
 .inactive_link {
-  background-color: green;
+  background-color: lightblue;
 }
 
 .active_link {
   background-color: red;
+  color: yellow;
 };
