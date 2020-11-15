@@ -31,11 +31,10 @@
   max-width: 100%;
 }
 
-.embed-container iframe, .embed-container object, .embed-container iframe {
+.embed-container iframe, .embed-container object {
   position: relative;
   width: 80%;
   height: 400px;
-  margin: auto;
 }
 
 .small {
@@ -43,4 +42,20 @@
   z-index: 40;
   bottom: 0;
   margin-bottom: -15px;
+}
+
+.datawrapper_containter {
+  position: relative;
+  max-width: 100%;
+}
+
+.datawrapper_containter {
+  position: relative;
+  max-width: 100%;
+}
+
+.datawrapper_container iframe {
+  position: relative;
+  width: 80%;
+  height: 360px;
 }
