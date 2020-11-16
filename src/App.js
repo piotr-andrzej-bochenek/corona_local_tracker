@@ -57,7 +57,7 @@ export default function App() {
 
 function HomePage() {
   return (
-    <div style={{height: '500px'}}>
+    <div>
       <h1>
         Personal local coronavirus SARS-COV-2 tracker
       </h1>

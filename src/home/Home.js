@@ -7,7 +7,7 @@ export default function Home () {
     <Table celled>
       <Table.Header>
         <Table.Row>
-          <Table.HeaderCell>New reported cases, deaths and recoveries yesterday</Table.HeaderCell>
+          <Table.HeaderCell>Newly reported cases, deaths and recoveries yesterday</Table.HeaderCell>
         </Table.Row>
       </Table.Header>
   
@@ -18,10 +18,10 @@ export default function Home () {
             </Table.Cell>
         </Table.Row>
         <Table.Row>
-          <Table.Cell>Spare Cell</Table.Cell>
+          <Table.Cell>Chart 02</Table.Cell>
         </Table.Row>
         <Table.Row>
-          <Table.Cell>Spare Cell</Table.Cell>
+          <Table.Cell>Chart 03</Table.Cell>
         </Table.Row>
       </Table.Body>
     </Table>
