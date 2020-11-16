@@ -6,6 +6,7 @@ import {
   Route,
   NavLink
 } from "react-router-dom";
+import Home from "./home/Home"
 import img1 from "../src/assets/icons/corona192.png";
 import './App.css';
 
@@ -45,7 +46,7 @@ export default function App() {
               <Maps />
             </Route>
             <Route path="/">
-              <Home />
+              <HomePage />
             </Route>
           </Switch>
         </div>
@@ -54,7 +55,7 @@ export default function App() {
   );
 };
 
-function Home() {
+function HomePage() {
   return (
     <div style={{height: '500px'}}>
       <h1>
@@ -73,15 +74,7 @@ function Home() {
         </div>
         
         There are many other ways of presenting data, some less informative, some more:
-
-        <div className='datawrapper_container'>
-          <table>
-            <th>
-              New reported cases, deaths and recoveries yesterday
-            </th>
-          </table>
-          <iframe src="https://datawrapper.dwcdn.net/JNx3A/3/"></iframe>
-        </div>
+        <Home></Home>
       </div>
     </div>
   );

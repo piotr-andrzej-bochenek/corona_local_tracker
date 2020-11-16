@@ -24,7 +24,7 @@
 .active_link {
   background-color: red;
   color: yellow;
-};
+}
 
 .embed-container {
   position: relative;
@@ -37,25 +37,9 @@
   height: 400px;
 }
 
-.small {
+small {
   position: absolute;
   z-index: 40;
   bottom: 0;
   margin-bottom: -15px;
-}
-
-.datawrapper_containter {
-  position: relative;
-  max-width: 100%;
-}
-
-.datawrapper_containter {
-  position: relative;
-  max-width: 100%;
-}
-
-.datawrapper_container iframe {
-  position: relative;
-  width: 80%;
-  height: 360px;
 }
