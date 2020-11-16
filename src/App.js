@@ -75,7 +75,12 @@ function Home() {
         There are many other ways of presenting data, some less informative, some more:
 
         <div className='datawrapper_container'>
-          <iframe src="https://datawrapper.dwcdn.net/JNx3A/1/"></iframe>
+          <table>
+            <th>
+              New reported cases, deaths and recoveries yesterday
+            </th>
+          </table>
+          <iframe src="https://datawrapper.dwcdn.net/JNx3A/3/"></iframe>
         </div>
       </div>
     </div>
