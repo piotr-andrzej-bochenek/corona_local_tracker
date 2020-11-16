@@ -1,0 +1,10 @@
+.datawrapper_Home_container {
+    position: relative;
+    max-width: 100%;
+}
+  
+.datawrapper_Home_container iframe {
+    position: relative;
+    width: 1015px;
+    height: 230px;
+}
