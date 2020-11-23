@@ -1,10 +1,13 @@
 import * as React from 'react';
-import { Container, Image } from 'semantic-ui-react';
+import { 
+  Container,
+  Image,
+} from 'semantic-ui-react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink
+  NavLink,
 } from "react-router-dom";
 import Home from "./home/Home"
 import img1 from "../src/assets/icons/corona192.png";
