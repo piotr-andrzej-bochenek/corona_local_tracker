@@ -8,7 +8,7 @@ import img1 from "../assets/icons/corona192.png";
 
 export default function Home () {
   return (
-    <div className="Home">
+    <div className="Home--container">
       <h1>
         Personal coronavirus SARS-COV-2 data tracker
       </h1>
@@ -21,7 +21,7 @@ export default function Home () {
         When you can't find useful and daily updated source, create it on your own!
       </h3>
 
-      <div>
+      <div className="Home__Separator">
         <Image src={img1} style={{width: 'auto', height: '25px'}}/>
         <Image src={img1} style={{width: 'auto', height: '25px'}}/>
         <Image src={img1} style={{width: 'auto', height: '25px'}}/>
@@ -29,34 +29,34 @@ export default function Home () {
         <Image src={img1} style={{width: 'auto', height: '25px'}}/>
       </div>
 
-      <Table celled>
+      <Table celled className="Home__Table">
         <Table.Header>
-          <Table.Row>
-            <Table.HeaderCell>There are many other ways of presenting data, some more useful and informative, some less.</Table.HeaderCell>
+          <Table.Row verticalAlign="middle">
+            <Table.HeaderCell className="Home__Table--header">There are many other ways of presenting data, some more useful and informative, some less.</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
     
         <Table.Body>
-          <Table.Row>
-            <Table.Cell>
+          <Table.Row verticalAlign="middle">
+            <Table.Cell className="Home__Table--cell">
               You may be familiar with this data presentation (please be patient, while it loads a worldwide amount of data):
             </Table.Cell>
           </Table.Row>
-          <Table.Row>
-            <Table.Cell className='embed-container'>
+          <Table.Row verticalAlign="middle">
+            <Table.Cell className='Home__Table--cell Home__Table--charts--01--container'>
               <iframe title="JHU COVID-19 Dashboard" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe>
             </Table.Cell>
           </Table.Row>
-          <Table.Row>
-            <Table.Cell>Newly reported cases, deaths and recoveries yesterday:</Table.Cell>
+          <Table.Row verticalAlign="middle">
+            <Table.Cell className="Home__Table--cell">Newly reported cases, deaths and recoveries yesterday:</Table.Cell>
           </Table.Row>
-          <Table.Row>
-            <Table.Cell className='datawrapper_Home_container'>
+          <Table.Row verticalAlign="middle">
+            <Table.Cell className='Home__Table--cell Home__Table--charts--02--container'>
               <iframe title="DataWrapper chart 1" src="https://datawrapper.dwcdn.net/JNx3A/3/"></iframe>
             </Table.Cell>
           </Table.Row>
-          <Table.Row>
-            <Table.Cell>Chart 03</Table.Cell>
+          <Table.Row className="Home__Table--row" verticalAlign="middle">
+            <Table.Cell className="Home__Table--cell">Chart 03</Table.Cell>
           </Table.Row>
         </Table.Body>
       </Table>
