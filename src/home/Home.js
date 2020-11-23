@@ -4,7 +4,7 @@ import './Home.css';
 
 export default function Home () {
   return (
-    <div>
+    <div className="Home">
       <h1>
         Personal local coronavirus SARS-COV-2 tracker
       </h1>
