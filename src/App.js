@@ -46,37 +46,12 @@ export default function App() {
               <Maps />
             </Route>
             <Route path="/">
-              <HomePage />
+              <Home />
             </Route>
           </Switch>
         </div>
       </Container>
     </Router>
-  );
-};
-
-function HomePage() {
-  return (
-    <div>
-      <h1>
-        Personal local coronavirus SARS-COV-2 tracker
-      </h1>
-      
-      <h3>
-        In the storm of a daily coming statistics it's easy to miss the ones, that are actually important. When you can't find useful source, you need to create it on your own!
-      </h3>
-      
-      <div>
-        You may know this data presentation (please be patient, while it loads a worldwide big amount of data):
-        
-        <div className="embed-container">
-          <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe>
-        </div>
-        
-        There are many other ways of presenting data, some less informative, some more:
-        <Home></Home>
-      </div>
-    </div>
   );
 };
 
