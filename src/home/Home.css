@@ -33,24 +33,28 @@
     padding: 0.5rem;
 }
 
-.Home__Table--charts--01--container {
+.Home__Table--charts--container {
     position: relative;
     max-width: 100%;
 }
 
-.Home__Table--charts--01--container iframe, .Home__Table--charts--01--container object {
+.Home__Table--charts--01 iframe, .Home__Table--charts--01 object {
     position: relative;
     width: 100%;
     height: 450px;
+    border: none;
 }
 
-.Home__Table--charts--02--container {
+.Home__Table--charts--02 iframe {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    height: 850px;
+    border: none;
 }
 
-.Home__Table--charts--02--container iframe {
+.Home__Table--charts--03 iframe {
     position: relative;
     width: 100%;
     height: 230px;
+    border: none;
 }

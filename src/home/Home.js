@@ -32,7 +32,7 @@ export default function Home () {
       <Table celled className="Home__Table">
         <Table.Header>
           <Table.Row verticalAlign="middle">
-            <Table.HeaderCell className="Home__Table--header">There are many other ways of presenting data, some more useful and informative, some less.</Table.HeaderCell>
+            <Table.HeaderCell className="Home__Table--header">There are many ways of presenting data, some more useful and informative, some less.</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
     
@@ -43,16 +43,26 @@ export default function Home () {
             </Table.Cell>
           </Table.Row>
           <Table.Row verticalAlign="middle">
-            <Table.Cell className='Home__Table--cell Home__Table--charts--01--container'>
-              <iframe title="JHU COVID-19 Dashboard" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe>
+            <Table.Cell className='Home__Table--cell Home__Table--charts--container Home__Table--charts--01'>
+              <iframe title="JHU COVID-19 Dashboard" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" scrolling="no" frameBorder="0"></iframe>
+            </Table.Cell>
+          </Table.Row>
+          <Table.Row verticalAlign="middle">
+            <Table.Cell className="Home__Table--cell">
+              The above set of data is huge to load and process. It's focused on total numbers, with some attention to daily changes of them. It brings limited base for conclusions. USA has the most reported cases, and most deaths. Is it then the most affected country?
+            </Table.Cell>
+          </Table.Row>
+          <Table.Row verticalAlign="middle">
+            <Table.Cell className='Home__Table--cell Home__Table--charts--container Home__Table--charts--02'>
+            <iframe title="Coronavirus COVID-19 cases in all countries" aria-label="chart" src="https://datawrapper.dwcdn.net/a8p5B/1/" scrolling="no" frameBorder="0"></iframe>
             </Table.Cell>
           </Table.Row>
           <Table.Row verticalAlign="middle">
             <Table.Cell className="Home__Table--cell">Newly reported cases, deaths and recoveries yesterday:</Table.Cell>
           </Table.Row>
           <Table.Row verticalAlign="middle">
-            <Table.Cell className='Home__Table--cell Home__Table--charts--02--container'>
-              <iframe title="DataWrapper chart 1" src="https://datawrapper.dwcdn.net/JNx3A/3/"></iframe>
+            <Table.Cell className='Home__Table--cell Home__Table--charts--container Home__Table--charts--03'>
+              <iframe title="DataWrapper chart 1" aria-label="chart" src="https://datawrapper.dwcdn.net/JNx3A/3/" scrolling="no" frameBorder="0"></iframe>
             </Table.Cell>
           </Table.Row>
           <Table.Row className="Home__Table--row" verticalAlign="middle">
