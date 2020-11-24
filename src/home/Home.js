@@ -54,7 +54,7 @@ export default function Home () {
           </Table.Row>
           <Table.Row verticalAlign="middle">
             <Table.Cell className='Home__Table--cell Home__Table--charts--container Home__Table--charts--02'>
-            <iframe title="Coronavirus COVID-19 cases in all countries" aria-label="chart" src="https://datawrapper.dwcdn.net/a8p5B/1/" scrolling="no" frameBorder="0"></iframe>
+            <iframe title="Coronavirus COVID-19 cases in all countries" aria-label="chart" src="https://datawrapper.dwcdn.net/a8p5B/2/" scrolling="no" frameBorder="0"></iframe>
             </Table.Cell>
           </Table.Row>
           <Table.Row verticalAlign="middle">
